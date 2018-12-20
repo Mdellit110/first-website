@@ -1,0 +1,96 @@
+
+  body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(https://tinyurl.com/ybxtgjac);
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #contactme {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contactme span {
+    padding: 10px 0;
+  }
+
+  #myface {
+    height: 200px;
+    width: 150px;
+    border-radius: 38%;
+    border: none;
+    margin-top: 63px;
+  }
+
+  .popout {
+    box-shadow: 0 10px 78px 0 rgba(0,0,0,0.8);
+    transition: 0.3s;
+  }
+
+  .shadowtext {
+    text-shadow:#3a76b7 1px 0 10px;
+    color: white;
+  }
+
+  .btn {
+     box-shadow: 0 5px 39px 0 rgba(0,0,0,0.4);
+     transition: 0.3s;
+     border-radius: 15px;
+     height: 36px;
+     width: 86px;
+     text-align: center;
+     cursor: pointer;
+     background-image: linear-gradient(rgba(146, 168, 228, 0.01), rgba(146, 168, 228, 0.40));
+     border: none;
+     margin: 0px 5px;
+     color: white;
+  }
+
+  .btn:hover {
+    background-image: linear-gradient(#5fa8f4, #388be2);
+    box-shadow: 0 10px 78px 0 rgba(0,0,0,0.8);
+  }
+
+  .btn:active {
+    background-image: linear-gradient(#5998ff, #296bd8);
+    border: none;
+  }
+
+  .btn:focus {
+    outline: none;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pages {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 39px 0 rgba(0,0,0,0.6);
+    transition: 0.3s;
+    background-color: rgba(146, 168, 228, 0.66);
+    font-size: 19px;
+    font-weight: bold;
+    word-spacing: 2px;
+    letter-spacing: .5px;
+  }
